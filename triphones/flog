@@ -1,0 +1,40 @@
+WARNING: no script file 3.1.2/id_dict.ded
+WARNING: no script file 3.1.2/names.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+     id_dict        27         27         27         27
+       names         4          4          4          4
+    dict-tri        31         31         31         31
+
+31 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. a     :    20
+  2. g     :     3
+  3. u     :     7
+  4. s     :    13
+  5. sp    :    29
+  6. b     :     5
+  7. i     :    17
+  8. o     :     8
+  9. t     :     5
+ 10. k     :    11
+ 11. d     :     4
+ 12. f     :     3
+ 13. r     :     8
+ 14. E     :     9
+ 15. m     :     7
+ 16. p     :     6
+ 17. l     :     5
+ 18. ks    :     1
+ 19. h     :     5
+ 20. e     :     4
+ 21. n     :     4
+ 22. ng    :     1
+ 23. sil   :     2
+ 24. v     :     1
+
+Dictionary dict-tri created

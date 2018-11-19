@@ -1,0 +1,5 @@
+../speech/train/wav/sample1.wav	../speech/train/mfcc/sample1.mfc
+../speech/train/wav/sample2.wav	../speech/train/mfcc/sample2.mfc
+../speech/train/wav/sample3.wav	../speech/train/mfcc/sample3.mfc
+../speech/train/wav/sample4.wav	../speech/train/mfcc/sample4.mfc
+../speech/train/wav/sample5.wav	../speech/train/mfcc/sample5.mfc
