@@ -1,0 +1,289 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         160000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 35 physical / 35 logical HMMs
+Label file will be used to align each file
+Aligning File: ../speech/train/mfcc/sample173.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END KOMPRES SEKOLAH ISI TUGAS FISIKA TUGAS GEO SENT-END  ==  [751 frames] -60.8349 [Ac=-45687.0 LM=0.0] (Act=12.2)
+Aligning File: ../speech/train/mfcc/sample174.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END DAFTAR DIREKTORI SENT-END  ==  [400 frames] -58.6960 [Ac=-23478.4 LM=0.0] (Act=10.7)
+Aligning File: ../speech/train/mfcc/sample175.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END POSISI SEKARANG SENT-END  ==  [314 frames] -57.9703 [Ac=-18202.7 LM=0.0] (Act=13.9)
+Aligning File: ../speech/train/mfcc/sample176.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END KEMBALI SENT-END  ==  [170 frames] -59.3950 [Ac=-10097.1 LM=0.0] (Act=7.7)
+Aligning File: ../speech/train/mfcc/sample177.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUKA AGUS SENT-END  ==  [284 frames] -54.5848 [Ac=-15502.1 LM=0.0] (Act=8.9)
+Aligning File: ../speech/train/mfcc/sample178.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS FELIX SENT-END  ==  [246 frames] -62.4398 [Ac=-15360.2 LM=0.0] (Act=10.3)
+Aligning File: ../speech/train/mfcc/sample179.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUAT VERIN SENT-END  ==  [280 frames] -56.2448 [Ac=-15748.5 LM=0.0] (Act=8.4)
+Aligning File: ../speech/train/mfcc/sample180.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END DEKOMPRES PR SENT-END  ==  [271 frames] -59.3813 [Ac=-16092.3 LM=0.0] (Act=11.9)
+Aligning File: ../speech/train/mfcc/sample181.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END MASUK TUGAS FISIKA SENT-END  ==  [366 frames] -59.5949 [Ac=-21811.7 LM=0.0] (Act=12.3)
+Aligning File: ../speech/train/mfcc/sample182.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END BUAT TUGAS KIMIA SENT-END  ==  [404 frames] -58.7972 [Ac=-23754.1 LM=0.0] (Act=11.1)
+Aligning File: ../speech/train/mfcc/sample183.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END BUAT TUGAS BIO SENT-END  ==  [338 frames] -61.1905 [Ac=-20682.4 LM=0.0] (Act=11.5)
+Aligning File: ../speech/train/mfcc/sample184.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END BUAT TUGAS GEO SENT-END  ==  [302 frames] -53.8637 [Ac=-16266.8 LM=0.0] (Act=9.4)
+Aligning File: ../speech/train/mfcc/sample185.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END HAPUS TUGAS MAT SENT-END  ==  [266 frames] -54.8783 [Ac=-14597.6 LM=0.0] (Act=11.6)
+Aligning File: ../speech/train/mfcc/sample186.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END DEKOMPRES SEKOLAH SENT-END  ==  [260 frames] -55.2957 [Ac=-14376.9 LM=0.0] (Act=8.7)
+Aligning File: ../speech/train/mfcc/sample187.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END DEKOMPRES PR SENT-END  ==  [243 frames] -54.4186 [Ac=-13223.7 LM=0.0] (Act=10.3)
+Aligning File: ../speech/train/mfcc/sample188.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END PINDAH HOLY KE VERIN SENT-END  ==  [350 frames] -53.4744 [Ac=-18716.0 LM=0.0] (Act=9.5)
+Aligning File: ../speech/train/mfcc/sample189.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SALIN AGUS KE FELIX SENT-END  ==  [338 frames] -55.5498 [Ac=-18775.8 LM=0.0] (Act=9.6)
+Aligning File: ../speech/train/mfcc/sample190.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END UBAH NAMA VERIN KE HOLY SENT-END  ==  [452 frames] -52.5755 [Ac=-23764.1 LM=0.0] (Act=9.7)
+Aligning File: ../speech/train/mfcc/sample191.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END KOMPRES SEKOLAH ISI TUGAS FISIKA TUGAS BIO SENT-END  ==  [674 frames] -55.8446 [Ac=-37639.2 LM=0.0] (Act=10.3)
+Aligning File: ../speech/train/mfcc/sample192.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END UBAH HOLY KE FELIX SENT-END  ==  [404 frames] -52.8018 [Ac=-21331.9 LM=0.0] (Act=9.0)
+Aligning File: ../speech/train/mfcc/sample193.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUKA VERIN SENT-END  ==  [223 frames] -52.1012 [Ac=-11618.6 LM=0.0] (Act=9.1)
+Aligning File: ../speech/train/mfcc/sample194.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUKA HOLY SENT-END  ==  [206 frames] -52.5667 [Ac=-10828.7 LM=0.0] (Act=8.7)
+Aligning File: ../speech/train/mfcc/sample195.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUKA FELIX SENT-END  ==  [230 frames] -52.5940 [Ac=-12096.6 LM=0.0] (Act=9.4)
+Aligning File: ../speech/train/mfcc/sample196.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS VERIN SENT-END  ==  [230 frames] -53.3415 [Ac=-12268.5 LM=0.0] (Act=9.5)
+Aligning File: ../speech/train/mfcc/sample197.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS AGUS SENT-END  ==  [230 frames] -55.1262 [Ac=-12679.0 LM=0.0] (Act=9.6)
+Aligning File: ../speech/train/mfcc/sample198.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HAPUS HOLY SENT-END  ==  [218 frames] -53.2090 [Ac=-11599.6 LM=0.0] (Act=9.8)
+Aligning File: ../speech/train/mfcc/sample199.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUAT HOLY SENT-END  ==  [206 frames] -53.6737 [Ac=-11056.8 LM=0.0] (Act=9.0)
+Aligning File: ../speech/train/mfcc/sample200.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUAT AGUS SENT-END  ==  [200 frames] -56.3166 [Ac=-11263.3 LM=0.0] (Act=10.6)
+Aligning File: ../speech/train/mfcc/sample201.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END BUAT FELIX SENT-END  ==  [257 frames] -51.0185 [Ac=-13111.7 LM=0.0] (Act=7.3)
+Aligning File: ../speech/train/mfcc/sample202.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END MASUK HOLY SENT-END  ==  [242 frames] -53.0939 [Ac=-12848.7 LM=0.0] (Act=7.9)
+Aligning File: ../speech/train/mfcc/sample203.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END MASUK FELIX SENT-END  ==  [201 frames] -55.2228 [Ac=-11099.8 LM=0.0] (Act=9.0)
+Aligning File: ../speech/train/mfcc/sample204.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END MASUK VERIN SENT-END  ==  [218 frames] -54.9149 [Ac=-11971.4 LM=0.0] (Act=9.0)
+Aligning File: ../speech/train/mfcc/sample205.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END KOMPRES PR ISI TUGAS MAT GEO SENT-END  ==  [550 frames] -55.1228 [Ac=-30317.5 LM=0.0] (Act=11.8)
+Aligning File: ../speech/train/mfcc/sample206.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END DEKOMPRES SEKOLAH SENT-END  ==  [278 frames] -55.4875 [Ac=-15425.5 LM=0.0] (Act=8.8)
+Aligning File: ../speech/train/mfcc/sample207.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END PINDAH TUGAS BIO KE HOLY SENT-END  ==  [470 frames] -56.2045 [Ac=-26416.1 LM=0.0] (Act=8.4)
+Aligning File: ../speech/train/mfcc/sample208.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END KOMPRES PR ISI AGUS FELIX SENT-END  ==  [482 frames] -55.5119 [Ac=-26756.8 LM=0.0] (Act=12.2)
+Aligning File: ../speech/train/mfcc/sample209.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END HAPUS TUGAS KIMIA SENT-END  ==  [350 frames] -53.9092 [Ac=-18868.2 LM=0.0] (Act=10.9)
+Aligning File: ../speech/train/mfcc/sample210.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END PANDAN TUGAS BIO SENT-END  ==  [290 frames] -56.1189 [Ac=-16274.5 LM=0.0] (Act=9.8)
+Aligning File: ../speech/train/mfcc/sample211.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END PAPRIKA JAGOAN GEO SENT-END  ==  [362 frames] -56.3365 [Ac=-20393.8 LM=0.0] (Act=11.3)
+Aligning File: ../speech/train/mfcc/sample212.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END DAFTAR SENT-END  ==  [111 frames] -54.2983 [Ac=-6027.1 LM=0.0] (Act=9.5)
+Aligning File: ../speech/train/mfcc/sample213.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END POSISI DADAR TELUR TERBALIK ASYIK SENT-END  ==  [482 frames] -58.7598 [Ac=-28322.2 LM=0.0] (Act=10.7)
+Aligning File: ../speech/train/mfcc/sample214.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END PUSAR MELALANG BUANA PR SENT-END  ==  [386 frames] -58.0729 [Ac=-22416.1 LM=0.0] (Act=10.2)
+Aligning File: ../speech/train/mfcc/sample215.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+SENT-END RAMEN MENETAS SEKOLAH SENT-END  ==  [320 frames] -56.9614 [Ac=-18227.6 LM=0.0] (Act=10.4)
+Aligning File: ../speech/train/mfcc/sample216.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SALIN HOLY KE VERIN SENT-END  ==  [350 frames] -54.4854 [Ac=-19069.9 LM=0.0] (Act=8.8)
+Aligning File: ../speech/train/mfcc/sample217.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END SALIN VERIN KE AGUS SENT-END  ==  [356 frames] -54.8562 [Ac=-19528.8 LM=0.0] (Act=8.9)
+Aligning File: ../speech/train/mfcc/sample218.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END UBAH AGUS KE FELIX SENT-END  ==  [362 frames] -56.3332 [Ac=-20392.6 LM=0.0] (Act=10.3)
+Aligning File: ../speech/train/mfcc/sample219.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END KOMPRES SEKOLAH ISI AGUS FELIX SENT-END  ==  [506 frames] -56.4130 [Ac=-28545.0 LM=0.0] (Act=10.2)
+Aligning File: ../speech/train/mfcc/sample220.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END KOMPRES PR ISI VERIN HOLY SENT-END  ==  [476 frames] -54.7792 [Ac=-26074.9 LM=0.0] (Act=11.3)
+Aligning File: ../speech/train/mfcc/sample221.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END PINDAH AGUS KE FELIX SENT-END  ==  [362 frames] -55.0304 [Ac=-19921.0 LM=0.0] (Act=10.8)
+Aligning File: ../speech/train/mfcc/sample222.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END KOMPRES SEKOLAH ISI TUGAS FISIKA TUGAS MAT SENT-END  ==  [650 frames] -54.3023 [Ac=-35296.5 LM=0.0] (Act=11.0)
+Aligning File: ../speech/train/mfcc/sample223.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END AYAM KOALA BANJIR NAMPAN KERAH SENT-END  ==  [476 frames] -55.4790 [Ac=-26408.0 LM=0.0] (Act=13.1)
+Aligning File: ../speech/train/mfcc/sample224.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END EMAS BERANG BERANG KEBELET PERAPIAN GENTONG SENT-END  ==  [578 frames] -54.9737 [Ac=-31774.8 LM=0.0] (Act=14.1)
+Aligning File: ../speech/train/mfcc/sample225.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END MERAH MINUM MANDI NAKAL NONTON NGOMONG SENT-END  ==  [542 frames] -54.1571 [Ac=-29353.1 LM=0.0] (Act=12.9)
+Aligning File: ../speech/train/mfcc/sample226.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END UNGU ONGKOS NYAMUK NYONYA MENYEMANGATI SENT-END  ==  [553 frames] -54.0334 [Ac=-29880.5 LM=0.0] (Act=12.2)
+Aligning File: ../speech/train/mfcc/sample227.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END SATE LELE ENAK EMBER PENDEK PADA BIMBING SENT-END  ==  [620 frames] -55.8977 [Ac=-34656.6 LM=0.0] (Act=18.9)
+Aligning File: ../speech/train/mfcc/sample228.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END BACA CICAK MICIN JARANG JASA RAJA SENT-END  ==  [512 frames] -54.7604 [Ac=-28037.3 LM=0.0] (Act=10.8)
+Aligning File: ../speech/train/mfcc/sample229.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END BANDUNG GUBUK BADAN DANDAN DAMAI DAHAGA SENT-END  ==  [572 frames] -55.2684 [Ac=-31613.5 LM=0.0] (Act=13.8)
+Aligning File: ../speech/train/mfcc/sample230.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END GAGAH GUDANG PANDA APA MANTAP TAHU ATAP SENT-END  ==  [697 frames] -53.7174 [Ac=-37441.0 LM=0.0] (Act=14.7)
+Aligning File: ../speech/train/mfcc/sample231.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END SELAT CABE KASUR KACA BATIK MBAK BAKSO SENT-END  ==  [679 frames] -54.7515 [Ac=-37176.3 LM=0.0] (Act=17.6)
+Aligning File: ../speech/train/mfcc/sample232.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END BAPAK SUKA SYAIR FAKTA KHAS KHAWATIR SENT-END  ==  [656 frames] -54.3431 [Ac=-35649.0 LM=0.0] (Act=12.1)
+Aligning File: ../speech/train/mfcc/sample233.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END SYAHDU SAWAH WAFAT FANTASI SYARAF SENT-END  ==  [530 frames] -55.1126 [Ac=-29209.7 LM=0.0] (Act=12.9)
+Aligning File: ../speech/train/mfcc/sample234.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END HURUF BAHASA SUMPAH HAK KULIAH SENT-END  ==  [518 frames] -55.6862 [Ac=-28845.5 LM=0.0] (Act=13.2)
+Aligning File: ../speech/train/mfcc/sample235.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END PUTAR LAGU RALAT LALAT LURUH LULUH SARING SENT-END  ==  [751 frames] -53.3356 [Ac=-40055.1 LM=0.0] (Act=16.0)
+Aligning File: ../speech/train/mfcc/sample236.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END PANTAI ANDAI SIOMAY SURVEI DANAU KAWAH AIR SENT-END  ==  [721 frames] -56.0999 [Ac=-40448.1 LM=0.0] (Act=10.8)
+Aligning File: ../speech/train/mfcc/sample237.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END SEPOI BOIKOT WANITA YOYO GOYANG WAHYU SUARA SENT-END  ==  [739 frames] -54.8841 [Ac=-40559.4 LM=0.0] (Act=10.8)
+Aligning File: ../speech/train/mfcc/sample238.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END VULKANIK REVOLUSI FORMULA REFORMASI AKTIF AKTIVITAS SENT-END  ==  [715 frames] -57.2813 [Ac=-40956.1 LM=0.0] (Act=13.5)
+Aligning File: ../speech/train/mfcc/sample239.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END IYA HIASAN KIASAN SIASAT SIRUP ASYIK SENT-END  ==  [691 frames] -56.4040 [Ac=-38975.2 LM=0.0] (Act=12.6)
+Aligning File: ../speech/train/mfcc/sample240.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END KUBUS BUSUK KAMUS KAMU KEMULIAAN SYUKUR SENT-END  ==  [679 frames] -55.7164 [Ac=-37831.4 LM=0.0] (Act=16.9)
+Aligning File: ../speech/train/mfcc/sample241.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END KHAYALAN KHAYANGAN KHUSYUK MENYANYI SENT-END  ==  [476 frames] -54.8667 [Ac=-26116.6 LM=0.0] (Act=9.7)
+Aligning File: ../speech/train/mfcc/sample242.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END RELA LERAI LARA JERA JURU BICARA SENT-END  ==  [667 frames] -54.2285 [Ac=-36170.4 LM=0.0] (Act=13.4)
+Aligning File: ../speech/train/mfcc/sample243.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END DAFTAR DIREKTORI DEKAN DERMAGA DERAU SENT-END  ==  [572 frames] -55.4764 [Ac=-31732.5 LM=0.0] (Act=14.6)
+Aligning File: ../speech/train/mfcc/sample244.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END AA AGUS ANTAR ADIK ANTUSIAS SENT-END  ==  [536 frames] -55.6184 [Ac=-29811.4 LM=0.0] (Act=15.3)
+Aligning File: ../speech/train/mfcc/sample245.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END POSISI ANGIN SEPOI SEPOI MULAI MASUK SENT-END  ==  [614 frames] -55.5751 [Ac=-34123.1 LM=0.0] (Act=11.3)
+Aligning File: ../speech/train/mfcc/sample246.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END KEMBALI MASUK SEKOLAH SEKARANG SENT-END  ==  [452 frames] -56.8979 [Ac=-25717.8 LM=0.0] (Act=13.1)
+Aligning File: ../speech/train/mfcc/sample247.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END MAT ADA DARI BIO KIMIA KE GEO FISIKA SENT-END  ==  [847 frames] -55.6584 [Ac=-47142.7 LM=0.0] (Act=16.7)
+Aligning File: ../speech/train/mfcc/sample248.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END HOLOGRAM HOLY HONORNYA HORE SENT-END  ==  [440 frames] -54.4249 [Ac=-23947.0 LM=0.0] (Act=9.3)
+Aligning File: ../speech/train/mfcc/sample249.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END FEDERASI FERMENTASI FELIX FENOMENAL SENT-END  ==  [638 frames] -61.1895 [Ac=-39038.9 LM=0.0] (Act=9.9)
+Aligning File: ../speech/train/mfcc/sample250.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END VEKTOR VELOSITAS VERBAL VERIN VEGETARIAN SENT-END  ==  [612 frames] -61.6282 [Ac=-37716.4 LM=0.0] (Act=12.2)
+Aligning File: ../speech/train/mfcc/sample251.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END UBAH NAMA SEKOLAH KE PR SENT-END  ==  [515 frames] -60.9561 [Ac=-31392.4 LM=0.0] (Act=10.3)
+Aligning File: ../speech/train/mfcc/sample252.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END AGUS SEKARANG SALIN PR MAT HOLY SELESAI ZEBRA SENT-END  ==  [758 frames] -62.2477 [Ac=-47183.8 LM=0.0] (Act=10.5)
+Aligning File: ../speech/train/mfcc/sample253.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END DAFTAR ISI TUGAS KIMIA SENT-END  ==  [468 frames] -57.5153 [Ac=-26917.2 LM=0.0] (Act=12.0)
+Aligning File: ../speech/train/mfcc/sample254.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END UBAH NAMA RUMAH SAKIT BERSALIN SENT-END  ==  [552 frames] -58.9393 [Ac=-32534.5 LM=0.0] (Act=12.3)
+Aligning File: ../speech/train/mfcc/sample255.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END MASUK KE DIREKTORI POSISI ADA SEKARANG SENT-END  ==  [625 frames] -58.4713 [Ac=-36544.6 LM=0.0] (Act=13.2)
+Aligning File: ../speech/train/mfcc/sample256.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END FELIX KEMARIN DEMAM DIKOMPRES TIDAK SENT-END  ==  [485 frames] -61.7058 [Ac=-29927.3 LM=0.0] (Act=10.7)
+Aligning File: ../speech/train/mfcc/sample257.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END VERIN DEKOMPRES SETELAH MENYELAM SENT-END  ==  [468 frames] -60.7109 [Ac=-28412.7 LM=0.0] (Act=13.4)
+Aligning File: ../speech/train/mfcc/sample258.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END AZAB ZEBRA BERZINAH MAKSIMAL EKSKLUSIF EKSTRAKSI SENT-END  ==  [625 frames] -63.7005 [Ac=-39812.8 LM=0.0] (Act=21.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         160000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

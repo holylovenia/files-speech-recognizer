@@ -1,0 +1,189 @@
+VERSION=1.0
+N=71   L=116  
+I=0    W=SENT-END            
+I=1    W=HOLY                
+I=2    W=!NULL               
+I=3    W=VERIN               
+I=4    W=FELIX               
+I=5    W=AGUS                
+I=6    W=MAT                 
+I=7    W=!NULL               
+I=8    W=GEO                 
+I=9    W=BIO                 
+I=10   W=KIMIA               
+I=11   W=FISIKA              
+I=12   W=TUGAS               
+I=13   W=ISI                 
+I=14   W=PR                  
+I=15   W=!NULL               
+I=16   W=SEKOLAH             
+I=17   W=KOMPRES             
+I=18   W=MAT                 
+I=19   W=GEO                 
+I=20   W=BIO                 
+I=21   W=KIMIA               
+I=22   W=FISIKA              
+I=23   W=TUGAS               
+I=24   W=HOLY                
+I=25   W=VERIN               
+I=26   W=FELIX               
+I=27   W=AGUS                
+I=28   W=KE                  
+I=29   W=MAT                 
+I=30   W=!NULL               
+I=31   W=GEO                 
+I=32   W=BIO                 
+I=33   W=KIMIA               
+I=34   W=FISIKA              
+I=35   W=TUGAS               
+I=36   W=HOLY                
+I=37   W=VERIN               
+I=38   W=FELIX               
+I=39   W=AGUS                
+I=40   W=NAMA                
+I=41   W=!NULL               
+I=42   W=UBAH                
+I=43   W=SALIN               
+I=44   W=PINDAH              
+I=45   W=PR                  
+I=46   W=SEKOLAH             
+I=47   W=DEKOMPRES           
+I=48   W=MAT                 
+I=49   W=GEO                 
+I=50   W=BIO                 
+I=51   W=KIMIA               
+I=52   W=FISIKA              
+I=53   W=TUGAS               
+I=54   W=HOLY                
+I=55   W=VERIN               
+I=56   W=FELIX               
+I=57   W=AGUS                
+I=58   W=MASUK               
+I=59   W=!NULL               
+I=60   W=BUAT                
+I=61   W=HAPUS               
+I=62   W=BUKA                
+I=63   W=KEMBALI             
+I=64   W=SEKARANG            
+I=65   W=POSISI              
+I=66   W=DIREKTORI           
+I=67   W=DAFTAR              
+I=68   W=SENT-START          
+I=69   W=!NULL               
+I=70   W=!NULL               
+J=0     S=2    E=0    
+J=1     S=7    E=0    
+J=2     S=13   E=1    
+J=3     S=1    E=2    
+J=4     S=3    E=2    
+J=5     S=4    E=2    
+J=6     S=5    E=2    
+J=7     S=18   E=2    
+J=8     S=19   E=2    
+J=9     S=20   E=2    
+J=10    S=21   E=2    
+J=11    S=22   E=2    
+J=12    S=24   E=2    
+J=13    S=25   E=2    
+J=14    S=26   E=2    
+J=15    S=27   E=2    
+J=16    S=45   E=2    
+J=17    S=46   E=2    
+J=18    S=48   E=2    
+J=19    S=49   E=2    
+J=20    S=50   E=2    
+J=21    S=51   E=2    
+J=22    S=52   E=2    
+J=23    S=54   E=2    
+J=24    S=55   E=2    
+J=25    S=56   E=2    
+J=26    S=57   E=2    
+J=27    S=63   E=2    
+J=28    S=64   E=2    
+J=29    S=66   E=2    
+J=30    S=13   E=3    
+J=31    S=13   E=4    
+J=32    S=13   E=5    
+J=33    S=12   E=6    
+J=34    S=6    E=7    
+J=35    S=8    E=7    
+J=36    S=9    E=7    
+J=37    S=10   E=7    
+J=38    S=11   E=7    
+J=39    S=12   E=8    
+J=40    S=12   E=9    
+J=41    S=12   E=10   
+J=42    S=12   E=11   
+J=43    S=7    E=12   
+J=44    S=13   E=12   
+J=45    S=15   E=13   
+J=46    S=17   E=14   
+J=47    S=14   E=15   
+J=48    S=16   E=15   
+J=49    S=17   E=16   
+J=50    S=68   E=17   
+J=51    S=23   E=18   
+J=52    S=23   E=19   
+J=53    S=23   E=20   
+J=54    S=23   E=21   
+J=55    S=23   E=22   
+J=56    S=28   E=23   
+J=57    S=28   E=24   
+J=58    S=28   E=25   
+J=59    S=28   E=26   
+J=60    S=28   E=27   
+J=61    S=30   E=28   
+J=62    S=35   E=29   
+J=63    S=29   E=30   
+J=64    S=31   E=30   
+J=65    S=32   E=30   
+J=66    S=33   E=30   
+J=67    S=34   E=30   
+J=68    S=36   E=30   
+J=69    S=37   E=30   
+J=70    S=38   E=30   
+J=71    S=39   E=30   
+J=72    S=35   E=31   
+J=73    S=35   E=32   
+J=74    S=35   E=33   
+J=75    S=35   E=34   
+J=76    S=41   E=35   
+J=77    S=41   E=36   
+J=78    S=41   E=37   
+J=79    S=41   E=38   
+J=80    S=41   E=39   
+J=81    S=42   E=40   
+J=82    S=40   E=41   
+J=83    S=43   E=41   
+J=84    S=44   E=41   
+J=85    S=68   E=42   
+J=86    S=68   E=43   
+J=87    S=68   E=44   
+J=88    S=47   E=45   
+J=89    S=47   E=46   
+J=90    S=68   E=47   
+J=91    S=53   E=48   
+J=92    S=53   E=49   
+J=93    S=53   E=50   
+J=94    S=53   E=51   
+J=95    S=53   E=52   
+J=96    S=59   E=53   
+J=97    S=59   E=54   
+J=98    S=59   E=55   
+J=99    S=59   E=56   
+J=100   S=59   E=57   
+J=101   S=68   E=58   
+J=102   S=58   E=59   
+J=103   S=60   E=59   
+J=104   S=61   E=59   
+J=105   S=62   E=59   
+J=106   S=68   E=60   
+J=107   S=68   E=61   
+J=108   S=68   E=62   
+J=109   S=68   E=63   
+J=110   S=65   E=64   
+J=111   S=68   E=65   
+J=112   S=67   E=66   
+J=113   S=68   E=67   
+J=114   S=70   E=68   
+J=115   S=0    E=69   

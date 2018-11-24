@@ -1,0 +1,70 @@
+% NS_B
+<s>				sil
+
+% NS_E
+</s>			sil
+
+% ISI
+ISI				i s i 
+
+% DAFTAR
+DAFTAR			d a f t a r
+
+% DIR
+DIREKTORI		d i r E k t o r i
+
+% DIRNAMES
+AGUS			a g u s
+FELIX			f E l i x
+HOLY			h o l i
+VERIN			f E r i n
+
+% POSISI
+POSISI			p o s i s i
+
+% SEKARANG
+SEKARANG		s e k a r a ng
+
+% KEMBALI
+KEMBALI			k e m b a l i
+
+% SIMPLE_COMMAND
+BUAT			b u a t
+BUKA			b u k a
+HAPUS			h a p u s
+MASUK			m a s u k
+
+% PINDAH
+PINDAH			p i n d a h
+
+% SALIN
+SALIN			s a l i n
+
+% UBAH
+UBAH			u b a h
+
+% NAMA
+NAMA			n a m a
+
+% SUPER_HARD_COMMAND
+KOMPRES			k o m p r E s
+
+% DECOMPRESS_COMMAND
+DEKOMPRES		d E k o m p r E s
+
+% MATKUL
+BIO				b i o
+FISIKA			f i s i k a
+GEO				g E o
+KIMIA			k i m i a
+MAT				m a t
+
+% TUGAS
+TUGAS			t u g a s
+
+% ZIP
+PR				p E E r
+SEKOLAH			s e k o l a h
+
+% KE
+KE 				k e
